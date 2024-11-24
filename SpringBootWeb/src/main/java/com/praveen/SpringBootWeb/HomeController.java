@@ -16,5 +16,10 @@ public class HomeController {
         System.out.println("home1 method");
         return "Home.jsp";
     }
+    @RequestMapping("/home")
+    public String home2()
+    {
+        return "Home.jsp";
+    }
 
 }
